@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TasheelApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TransactionsFactory.makeView()
         }
     }
 }
